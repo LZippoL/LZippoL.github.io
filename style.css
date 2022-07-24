@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 135px;
+}
+#logo{
+    display: flex;
+    margin-top: 30px;
+    
+}
+#logo img{
+    width: 34px;
+    height: 34px;
+}
+#logo #down{
+     position: relative;
+    width: 6px;
+    height: 3px;
+    top: 8px;
+}
+#logo p{
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    line-height: 67%;
+    vertical-align: Top;
+    margin-top: 8px;
+    margin-left: 6px;
+    text-align: center;
+}
+#logo  li{
+    display: inline-flex;
+    margin-left: 32px;
+    font-weight: normal;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 14px;
+    color: #656464;
+    letter-spacing: 1%;
+    
+    
+}
+#logo #first-li{
+    font-weight: bold;
+    color: #2B2B39;
+    
+}
+#logo ul{
+    display: flex;
+    align-items: center;
+}
+#navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#search-but{
+    display: flex;
+    align-items: center;
+    margin-top: 22px;
+
+}
+#search-but button{
+    width: 123px;
+    height: 50px;
+    margin-left: 47px;
+    text-align: center;
+    background-color: #217BF4;
+    border: none;
+    border-radius: 14px;
+    font-size: 12px;
+    line-height: 14px;
+    vertical-align: top;
+    font-family: Inter;
+    font-weight: 700;
+    color: white;
+
+}
+#search-but input{
+    width: 80px;
+    height: 14px;
+    border: none;
+    border-bottom: 1px solid #E5E5E5;
+}
