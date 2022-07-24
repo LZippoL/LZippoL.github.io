@@ -82,8 +82,11 @@
 
 }
 #search-but input{
-    width: 80px;
+    width: 105px;
     height: 14px;
     border: none;
     border-bottom: 1px solid #E5E5E5;
+    padding: 18px;
+    background: url("/img/input.svg") no-repeat center left;
+    padding-right:10px;
 }
